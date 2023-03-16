@@ -9,13 +9,13 @@
 
 .cells {
   border: 1px solid black;
-  width: 50px;
-  height: 50px;
+  width: 25vh;
+  height: 25vh;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 35px;
+  font-size: 10em;
 }
 
 .cells:nth-child(-n+3) {
