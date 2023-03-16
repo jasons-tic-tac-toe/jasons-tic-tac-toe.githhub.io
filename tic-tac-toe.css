@@ -46,7 +46,7 @@
   cursor: not-allowed;
 }
 
-.cells: not(.disabled):hover {
+.cells:not(.disabled):hover {
   background: #eee;
 }
 
