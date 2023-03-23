@@ -19,7 +19,7 @@ function checkWin() {
 // zorgen dat het spel de juiste gameover text laat zien
     if (xWins || OWins) {
       console.log("win triggered");
-      document.querySelectorAll("cells").forEach(cell => cell.classList.add("disabled"));
+      document.querySelectorAll(".cells").forEach(cell => cell.classList.add("disabled"));
       document.querySelector(".gameover").style.display = "block";
       document.querySelector(".gameover-text").textContent = xWins ?
         "X wins" :
