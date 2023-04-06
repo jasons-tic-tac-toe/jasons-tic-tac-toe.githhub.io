@@ -23,6 +23,9 @@
     width: 25vw;
     height: 25vw;
   }
+  #CurrentTurnText{
+    font-size: 10vw;
+  }
 }
 
 .cells:nth-child(-n+3) {
