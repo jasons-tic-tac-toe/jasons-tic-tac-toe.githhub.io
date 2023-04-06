@@ -18,6 +18,13 @@
   font-size: 10em;
 }
 
+@media only screen and (max-width: 600px ) {
+  .cells {
+    width: 25vw;
+    height: 25vw;
+  }
+}
+
 .cells:nth-child(-n+3) {
   border-top: none;
 }
